@@ -2,7 +2,7 @@
 //optimal
 //tc= n logn
 //using brute force it's O(n^2) with two loops and using hashmap we can reduce it to O(n logn ), find takes O(n) in best case and sc=O(n) hashmap
-//alightly better approach if we dont have to return the indexes but only yes or no is using 2 pointer approach , 
+//slightly better approach if we dont have to return the indexes but only yes or no is using 2 pointer approach , 
 //where first we'll store the numbers with indexes in a data structure and then sort the array and keep the pointers 
 //in either side if the target is larger move froward the left pointer and if smaller then decrement the right pointer and once the pointers cross each other and didn't find the no its a NO :)
 class Solution {
