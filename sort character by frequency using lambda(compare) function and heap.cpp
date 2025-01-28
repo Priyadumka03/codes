@@ -1,5 +1,5 @@
 //sort character by frequency using lambda function
-tc & sc=O(n)
+tc & sc=O(n log n)
 class Solution {
 public:
 typedef pair<char,int> P;
