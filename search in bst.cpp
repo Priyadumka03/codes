@@ -1,3 +1,4 @@
+tc= O(1) in best, O(logn) in average, O(n) in worst skewwd bst
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
